@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Leer el archivo CSV
-archivo_csv = 'Ventas.csv'  # Reemplaza con la ruta de tu archivo
+archivo_csv = 'Ventas.csv' 
 datos = pd.read_csv(archivo_csv)
 
 # Calcular máximos, mínimos y promedios por producto
